@@ -1,0 +1,301 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Segoe UI';
+   color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+
+body h1 {
+   font-family: 'Segoe UI', sans-serif;
+   align-items: center;
+   text-align: center;
+   padding: 30px;
+   padding-top: 10px;
+   padding-bottom: 5px;
+   font-size: 45px;
+   justify-content: center;
+   border-radius: 15px;
+   letter-spacing: 1.5px;
+}
+
+#topo {
+   height: 150px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(255, 0, 0));
+}
+
+#linha_topo {
+   position: fixed;
+   width: 100%;
+   top: 0;
+}
+
+#topo #logo img {
+   width: 150px;
+   height: 110px;
+   margin-right: 5%;
+}
+
+#part1 {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 10%;
+}
+
+#part2 {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 10%;
+}
+#part3 {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 10%;
+}
+#part4 {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 10%;
+}
+#part5 {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   padding-top: 10%;
+}
+#conteudo {
+   top: 300px;
+   padding: 18px;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   max-width: 1440vh;
+   background-color: #000000;
+   margin:auto;
+   margin-bottom: 1px;
+   margin-top: 12%;
+   min-height:100%;
+}
+
+#conteudo a {
+   text-decoration: none;
+   color:black;
+}
+
+.card {
+   width: 320px;
+   height: 250px;
+   border: 2px solid black;
+   padding: 10px;
+   margin: 5px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px rgb(0, 0, 0);
+   background-color: azure;
+   flex-direction: column;
+   display: flex;
+   align-items: center;
+   transition: all ease 0.5s;
+   text-align: center;
+   overflow: hidden;
+}
+
+.card:hover {
+   width: 300px;
+   height: auto;
+}
+
+.card figure {
+   width: 270px;
+   height: 290px;
+   border-radius: 10px;
+}
+
+.card figure img {
+   width: 100%;
+}
+
+.card h2 {
+   font-family: 'Segoe UI';
+   font-size: 20px;
+   margin-top: -10px;
+   color: rgb(0, 0, 0);
+   -webkit-text-stroke: 1px rgb(0, 0, 0);
+   letter-spacing: 1.5px;
+}
+
+.card p {
+   font-family: 'Segoe UI';
+   color: rgb(0, 0, 0);
+   text-overflow: clip;
+   margin-top: -10px;
+   padding-bottom: 15px;
+}
+
+.card h4 {
+    color: red;
+}
+
+.descricao {
+   display: inline-block;
+   white-space: inherit;
+   border: 3px solid black;
+   margin-top: 5px;
+   padding-top: 2%;
+   padding: -5px;
+   background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(255, 255, 255));
+   border-radius: 10px;
+   box-shadow: 3px 3px 6px black;
+}
+
+.descricao h3 {
+   padding-top: -5px;
+   padding-bottom: 8px;
+   padding: 2%;
+   border-bottom: 2px solid black;
+   margin: 10px;
+   font-size: 30px;
+}
+
+.descricao p {
+   padding: 8px;
+   font-family: Arial;
+   padding-bottom: 20px; 
+}
+
+#rodape {
+   height: 40px;
+   color: rgb(255, 0, 0);
+}
+
+#rodape p {
+   text-align: center;
+   padding-top: 20px;  
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.815);
+    font-family: Open Sans;
+    justify-content: center;
+    gap: 1em;
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+}
+
+#menu ul li a:hover {
+    background-color: #f73333;
+}
+
+#menu ul li:last-child a {
+    float: right;
+    background-color:  rgb(255, 0, 0);;
+}
+
+h1 {
+    font-family: 'Segoe UI';
+}
+
+#parte1 {
+    height: 65vh;
+    background-color: rgb(253, 253, 137);
+}
+
+#parte2 {
+    height: 62vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#parte3 {
+    height: 62vh;
+    background-color: rgb(255, 199, 96);
+}
+
+#parte4 {
+    height: 62vh;
+    background-color: rgb(146, 197, 255);
+}
+
+#parte5 {
+   height: 62vh;
+   background-color: rgb(146, 255, 170);
+}
+
+#part6 {
+   margin-top: 0;
+}
+
+.rodape{
+   background-image: linear-gradient(to top, rgb(0, 0, 0), rgb(255, 0, 0));
+   color: white;
+   height: auto;
+   width: 100%;
+   font-size: 15px;
+   font-family: 'Segoe UI';
+}
+.rodape a{
+   text-decoration: none;
+   color: white;
+}
+.rodape p{
+   margin-bottom: 5px;
+}
+.rodape-div{
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   margin: auto;
+   align-items: stretch;
+   padding: 25px 10px 35px 5px;
+}
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+   display: flex;
+   width: calc(100% / 4 - 20px);
+   padding: 10px;
+}
+.rodape span{
+   font-size: 20px;
+   color: rgb(0, 0, 0);
+}
+.rodape-direitos{
+   width: calc(100% - 20px);
+   background-color: black;
+   padding: 10px;
+   margin: 0px;
+   text-align: center;
+}
