@@ -233,27 +233,27 @@ h1 {
 
 #parte1 {
     height: 65vh;
-    background-color: rgb(253, 253, 137);
+    background-image: url(card.png);
 }
 
 #parte2 {
     height: 62vh;
-    background-color: rgb(255, 255, 255);
+    background-image: url(card.png);
 }
 
 #parte3 {
     height: 62vh;
-    background-color: rgb(255, 199, 96);
+    background-image: url(card.png);
 }
 
 #parte4 {
     height: 62vh;
-    background-color: rgb(146, 197, 255);
+    background-image: url(card.png);
 }
 
 #parte5 {
    height: 62vh;
-   background-color: rgb(146, 255, 170);
+   background-image: url(card.png);
 }
 
 #part6 {
